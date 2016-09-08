@@ -1,0 +1,75 @@
+a href="mailto" href="tel"
+
+pod dt powinno byc dd dd to opisd
+<dl>
+	<dt></dt>
+	<dd>
+	<dt></dt>
+	<dd>
+<dl>
+
+zagniezdzajac liste w liscie nalezy zagniezdzic w li a nie bezposrednio w ul
+
+
+wyswietlanie dokumentu 
+block- rozciaga sie maxymalnie na boki jak moze poki nc go nie ogranicza ale trzeba ustawic wysokosc
+line-(jak div) tylko tle miejsca ile to co w srodku
+inline-block1 obok 2 
+inline-(jak div) 1 obok 2 ale kazdy zajmuje tyle ile content
+flex(nowosc i nie kadzda przgladarka obsluguje np safari i explorer) 1 obok 2 tak ze mozna ustawic centrowanie(znalezc info)
+
+tabele
+<thead>
+<th> pogrubiony tekst w komorce jak to head<th>
+<tbody>
+<tr><td><td></tr>
+<tr><td><td></tr>
+
+tr to row
+a td to komorka
+rowspan-laczy komorki
+
+formularz
+<for action="" method="">
+action puste lub link do skryptu
+method get lub post 
+get- wysylanie jawne -to co wpiszemy dopisuje sie do adresu strony
+post- niejawne wysylanie
+<imput type="submit" value="wyslij">
+kazdy element form ma swoja value co przydaje sie zeby w javascriocie na bierzaco wpisywac w value to co wpisuje uzytkownik tak ze po ponownym zaladowaniu mozna wrzucic to z powrotem w input(formularze ktore w ktorych zostaja wartosci jak odswiezysz str)
+
+input placeholder -szary tekst wenatrz input ktory znika jak zaczynasz pisac
+
+required- nie wysle jesli nie bedie wypelnione
+
+<label for"ok">OK</label> ------------> dzieki temu jesli klikne na label reaguje checkbox(dziala tez na input, wtedy od razu mozna pisac)
+<checkbox id="ok">
+
+radiobuttony musza miec taka sama nazwe (name) zeby jeden odznaczal 2
+
+autocomplete="on/off"- podpowiadanie (np login)
+
+przezroczysosc rgba(123, 234, 321, 0.23) a to kanal alfa czyli przezroczystosc przyjmuje wartosc od 0 do 1
+opacity = przezroczystosc obiektu (0 do 1)
+
+
+width:calc(100% - 40px); = fajna opcja ktora obicza szerokosc elementu na podstawie wielkosci wyswietlacza
+.box .div .p{} wyszukuje p w div w box
+.box, .div, .p{} ustawia wlasciwosc zarowna dla box div i p
+
+dziedziczenie:
+.box input{} wyszukuje inputa ktory jest w klasie box (posrednio lub bezposrednio) czyli taki ktory ma gdzies rodzica box
+.box > input {} wyszukuje inputa ktory jest bezposrednio w klasie box
+.box+ input{} wyszukuje takiego inputa ktory wystepuje bezposrednio po boxie czyli <div class="box"></div><input type="text">
+selektor atrybutow: [font-size]{} / p[font-size]{} 
+
+
+POZYCJONOWANIE
+ jesli chce zeby nawigacja byla przyklejona do headera a header do gory strony to logo ustawiam position:fixed; top:0px: a nawigacje wrzucam do headera i daje position:absolute; top:100%; co sprawia ze nawigacja bedzie o 100% wysokosci headera nizej niz on sam czyli tuz pod nim
+
+relative : przesuniecie wzgledem oryginalnej pozycji. nie zwalnia miejsca wiec jest wizualnie przesuniety ale dla robota jest wciaz w tej samej pozycji
+absolut: ustawienie wzgledem pierwszego rodzica z position relativ. jesli niem ma zadnego rodzica z relativ to element ustawi sie wzgledem body.
+fixed: przyklejenie wzgledem okna(ten sam efekt co absolute bez rodzica z relative)
+
+BOX MODEL
+atrybut box-sizing: w modelu pudelkowym na calosc rozmiaru obiektu wchodzi obiekt padding oraz border. jesi mam div 100x100 i dam mu padding 20 bede mial 140x140. jesli chce zeby padding byl 20 ale calkowty rozmiar bez zmian ustawiam box-sizing: border-b20:16 2016-09-08ox;

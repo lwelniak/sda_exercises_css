@@ -1,3 +1,22 @@
-/*
-** tu powinny być zdefiniowane style css dla dokumentu html
-**/
+#kolo{
+    
+    border:15px solid red;
+    border-radius: 50% 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 0 10px  rgba(0, 0, 0, 0.5),  -10px -10px 0 10px  rgba(0, 0, 0, 0.5);
+}
+#elipsa{
+    
+    border:15px solid red;
+    border-radius: 50% 50%;
+    width: 500px;
+    height: 300px;
+}
+#lime{
+    
+    border:15px solid red;
+    border-radius: 30% 50%;
+    width: 300px;
+    height: 300px;
+}

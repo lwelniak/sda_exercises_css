@@ -1,3 +1,14 @@
-/*
-** tu powinny być zdefiniowane style css dla dokumentu html
-**/
+#div1{
+    background-color: cornflowerblue;
+     height: 50px;
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#div2{
+   background-color: darkorchid; 
+    height: 50px;
+    width: 300px;
+    margin-top: 15px;
+}

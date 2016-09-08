@@ -1,3 +1,55 @@
-/*
-** tu powinny być zdefiniowane style css dla dokumentu html
-**/
+header{
+    height: 100px;
+    width:100%;
+    position: fixed;
+    top:0px;
+    background-color: darkgoldenrod;
+    color:azure;
+    padding:10px;
+    font-weight: 500;
+}
+#static{
+    background-color:firebrick;
+    height: 300px;
+}
+#relative{
+    background-color:dimgray;
+}
+#absolute{
+background-color:crimson;
+    
+    
+}
+.nav{
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 100%;
+    padding: 0px;
+    
+    left:0px;
+        
+}
+ul{
+    margin: 0px;
+    
+}
+li{
+    width: 100px;
+    margin: 5px;
+    margin-left: 0px;
+    color:#fff;
+    background-color: aqua;
+    list-style: none;
+    padding: 15px;
+    
+    
+}
+a{
+    text-decoration: none;
+  
+}
+li:hover{
+    
+    color:aqua;
+    background-color: #fff;
+}
