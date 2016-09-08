@@ -73,3 +73,5 @@ fixed: przyklejenie wzgledem okna(ten sam efekt co absolute bez rodzica z relati
 
 BOX MODEL
 atrybut box-sizing: w modelu pudelkowym na calosc rozmiaru obiektu wchodzi obiekt padding oraz border. jesi mam div 100x100 i dam mu padding 20 bede mial 140x140. jesli chce zeby padding byl 20 ale calkowty rozmiar bez zmian ustawiam box-sizing: border-b20:16 2016-09-08ox;
+
+after i before-ogarnac
